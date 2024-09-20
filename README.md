@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<p align="center" style="border-bottom: 1px solid; padding-bottom: 12px">
+<p align="center" style="border-bottom: 1px solid grey; padding-bottom: 12px">
  Pharidean GmbH Fork <br/>Original README below
 </p>
 
