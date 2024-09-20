@@ -1,6 +1,7 @@
 <script runat="server" language="javascript">
     /**
-     * @version 1.0.1
+     * @version 1.0.1 (email360)
+     * @since 2024 Pahridean GmbH
      */
     var version = "1.0.1"
 
@@ -123,8 +124,8 @@
                 password: createPassword(24)
             },
             cloudpages: {
-                login: '%%=ContentBlockByKey("'+prefix+'-login-page")=%%',
-                error: '%%=ContentBlockByKey("'+prefix+'-error-page")=%%'
+                login: '%%=ContentBlockByKey("' + prefix + '-login-page-' + version + '")=%%',
+                error: '%%=ContentBlockByKey("' + prefix + '-error-page-' + version + '")=%%'
             },
             hasErrors: false
         };
