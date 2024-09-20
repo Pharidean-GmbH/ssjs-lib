@@ -1,3 +1,13 @@
+<p align="center" style="background: #292F39">
+  <a href="https://pharidean.de/">
+    <img src="https://www.pharidean.de/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpharidean_logo_dark_bg.b2375042.png&w=640&q=75" alt="Pharidean logo" width="400" height="223">
+  </a>
+</p>
+
+<p align="center" style="border-bottom: 1px solid; padding-bottom: 12px">
+ Pharidean GmbH Fork <br/>Original README below
+</p>
+
 <p align="center">
   <a href="https://email360.io/">
     <img src="https://blog.email360.io/images/logo_dark.png" alt="email360 logo" width="400" height="223">
