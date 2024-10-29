@@ -84,8 +84,10 @@
         }
 
         // get api credentials
-        var payload = Platform.Function.ParseJSON(DecryptSymmetric(setup.credentials,"AES",libKeys.symmetric,null,libKeys.salt,null,libKeys.vector)),
-            req = httpRequest("POST", setup.authBaseURI + "v2/token", "application/json", payload);
+        var payload = Platform.Function.ParseJSON(DecryptSymmetric(setup.credentials,"AES",libKeys.symmetric,null,libKeys.salt,null,libKeys.vector));
+        var midPayload = mergeObject(payload, {account_id: setup.mid});
+        // log.trace("[getToken] - payload with MID", midPayload);
+        var req = httpRequest("POST", setup.authBaseURI + "v2/token", "application/json", midPayload);
 
         if (req.status == 200) {
             var dateNow = Platform.Function.SystemDateToLocalDate(Now()),

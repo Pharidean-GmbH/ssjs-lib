@@ -8,6 +8,11 @@
  Pharidean GmbH Fork <br/>Original README below
 </p>
 
+## Pharidean
+
+Changes by Pharidean
+
+## Original
 <p align="center">
   <a href="https://email360.io/">
     <img src="https://blog.email360.io/images/logo_dark.png" alt="email360 logo" width="400" height="223">

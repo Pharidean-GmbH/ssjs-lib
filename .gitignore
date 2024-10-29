@@ -39,3 +39,6 @@ Thumbs.db
 *.conf
 *lib_le.js
 *lib_luxapi.js
+
+#CF
+.vscode/

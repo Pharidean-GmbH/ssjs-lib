@@ -1,7 +1,7 @@
 <script runat="server" language="javascript">
     /**
      * @version 1.0.1 (email360)
-     * @since 2024 Pahridean GmbH
+     * @since 2024 Pharidean GmbH
      */
     var version = "1.0.1"
 
@@ -118,6 +118,7 @@
             api: false,
             keys: [],
             credentials: null,
+            mid: null
             login: {
                 fromUser: false,
                 username: "admin",
@@ -135,7 +136,8 @@
             sfmcApi: {
                 authBaseURI: "https://xxxxxxxxxxxxxxxxxxxxxxxxxxxx.auth.marketingcloudapis.com/",
                 restBaseURI: "https://xxxxxxxxxxxxxxxxxxxxxxxxxxxx.rest.marketingcloudapis.com/",
-                credentials: "xxxxxxx"
+                credentials: "xxxxxxx",
+                mid: "xxxxxxx"
             },
             keys: {
                 general: {
